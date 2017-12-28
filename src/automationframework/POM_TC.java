@@ -29,9 +29,9 @@ public class POM_TC {
 
 	Home_Page.lnk_MyAccount(driver).click();
 
-	Login_Page.txtbx_UserName(driver).sendKeys("testuser_1");
+	Login_Page.txtbx_UserName(driver).sendKeys("0764354255");
 
-	Login_Page.txtbx_Password(driver).sendKeys("Test@123");
+	Login_Page.txtbx_Password(driver).sendKeys("1511");
 
 	Login_Page.btn_LogIn(driver).click();
 

@@ -22,7 +22,7 @@ public class Login_Page {
 
     public static WebElement btn_LogIn(WebDriver driver){
 
-    	element =  driver.findElement(By.className("loginButton"));
+    	element =  driver.findElement(By.xpath("//html/body/div[7]/div[2]/form/div[3]/button[2]"));
 
     	return element;}
     

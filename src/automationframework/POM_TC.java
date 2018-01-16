@@ -30,9 +30,13 @@ public class POM_TC {
 		Login_Page.txtbx_Password(driver).sendKeys("1511");
 
 		Login_Page.btn_LogIn(driver).click();
+		
+		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
 
 		System.out.println(" Login Successfully, now it is the time to Log Off buddy.");
-
+		
+		Home_Page.Opn_Sidebar(driver).click();
+		
 		Home_Page.lnk_LogOut(driver).click(); 
 
 	driver.quit();
